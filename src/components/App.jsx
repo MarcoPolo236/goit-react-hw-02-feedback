@@ -1,11 +1,10 @@
 import React from "react";
-import { FeedbackWidget } from "./Feedback Widget";
+import { FeedbackWidget } from "./Feedback/Feedback Widget";
 
-export const App = () => {
-  return (
-    <div>
-      <FeedbackWidget
-      />
-    </div>
-  );
+export class App extends Component {
+  state = {
+    good: 0,
+    neutral: 0,
+    bad: 0,
+  };
 };
