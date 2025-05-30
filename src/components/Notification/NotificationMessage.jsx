@@ -1,5 +1,5 @@
 
-import { NotificationMessage } from './NotificationStyled';
+import { NotificationMessage } from './NotificationStyled.jsx';
 export const Notification = ({ message }) => {
   return <NotificationMessage>{message}</NotificationMessage>;
 };
