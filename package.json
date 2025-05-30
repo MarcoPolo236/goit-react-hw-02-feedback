@@ -47,6 +47,7 @@
     "@types/react": "^19.1.6",
     "@types/react-dom": "^19.1.5",
     "@types/scheduler": "^0.26.0",
-    "@types/testing-library__jest-dom": "^5.14.9"
+    "@types/testing-library__jest-dom": "^5.14.9",
+    "package": "^1.0.1"
   }
 }
