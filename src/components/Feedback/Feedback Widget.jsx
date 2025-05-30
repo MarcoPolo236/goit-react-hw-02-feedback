@@ -1,7 +1,4 @@
-import React from 'react';
 import { Wrapper, Button } from './FeedbackStyled';
-
-
 export const FeedbackOptions = ({ options, onLeaveFeedback }) => (
   <Wrapper>
     {options.map(option => (
